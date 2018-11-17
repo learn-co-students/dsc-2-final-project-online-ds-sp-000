@@ -1,101 +1,86 @@
 
-# Module X Final Project
-
+# Module 2 Final Project Specifications
 
 ## Introduction
 
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module X. 
+In this lesson, we'll review all the guidelines and specifications for the final project for Module 2. 
 
 ## Objectives
-You will be able to:
-* Describe all required aspects of the final project for Module X
-* Describe all required deliverables
-* Describe what constitutes a successful project
-* Describe what the experience of the project review should be like
 
-## Final Project Summary
+* Understand all required aspects of the Final Project for Module 2
+* Understand all required deliverables
+* Understand what constitutes a successful project
 
-You've made it all the way through another  module of this course - congratulations!
+### Final Project Summary
 
+Another module down--you're half way there!
 
-## The Dataset
+<img src='halfway-there.gif'>
 
+For the culmination of Module 2, you just need to complete the final project!
+
+### The Project
+
+For this project, you'll be working with the Northwind database--a free, open-source dataset created by Microsoft containing data from a fictional company. You probably remember the Northwind database from our section on Advanced SQL. Here's the schema for the Northwind database:
+
+<img src='Northwind_ERD.png'>
+
+The goal of this project is to test your ability to gather information from a real-world database and use your knowledge of statistical analysis and hypothesis testing to generate analytical insights that can be of value to the company. 
 
 ## The Deliverables
 
+The goal of your project is to query the database to get the data needed to perform a statistical analysis.  In this statistical analysis, you'll need to perform a hypothesis test (or perhaps several) to answer the following question:
 
+**_Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount?_**
 
-## The Process
+In addition to answering this question with a hypothesis test, you will also need to come up with **_at least 3 other hypotheses to test on your own_**.  These can by anything that you think could be imporant information for the company. 
 
-### 1. Getting Started
+For this hypothesis, be sure to specify both the **_null hypothesis_** and the **_alternative hypothesis_** for your question.  You should also specify if this is one-tail or a two-tail test. 
 
-Please start by reviewing this document. If you have any questions, please ask them in slack ASAP so (a) we can answer the questions and (b) so we can update this repository to make it clearer.
+To complete this project, you will need to turn in the following 3 deliverables:
 
-Once you're done with the rest of the module, please start on the project. Do that by forking this repository, cloning it locally, and working in the student.ipynb file. Make sure to also add and commit a pdf of your presentation to the repository with a file name of `presentation.pdf`.
+1. A **_Jupyter Notebook_** containing any code you've written for this project. 
+2. A **_Blog Post_** explaining your process, methodology, and findings.  
+3. An **_"Executive Summary" PowerPoint Presentation_** that explains the hypothesis tests you ran, your findings, and their relevance to company stakeholders.  
 
-### 2. The Project Review
+### Jupyter Notebook Must-Haves
 
-> **When you start on the project, please also reach out to an instructor immediately to schedule your project review** (if you're not sure who to schedule with, please ask in slack!)
+For this project, your jupyter notebook should meet the following specifications:
 
-#### What to expect from the Project Review
+**_Organization/Code Cleanliness_**
 
-Project reviews are focused on preparing you for technical interviews. Treat project reviews as if they were technical interviews, in both attitude and technical presentation *(sometimes technical interviews will feel arbitrary or unfair - if you want to get the job, commentiing on that is seldom a good choice)*.
+* The notebook should be well organized, easy to follow, and code is commented where appropriate.  
+<br>  
+    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code. All functions have docstrings that act as professional-quality documentation.  
+<br>      
+* The notebook is written to technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.  
+<br>    
+* Any SQL code written to source data should also be included.  
 
-The project review is comprised of a 45 minute 1:1 session with one of the instructors. During your project review, be prepared to:
+**_Findings_**
 
-#### 1. Deliver your PDF presentation to a non-technical stakeholder. 
-In this phase of the review (~10 mins) your instructor will play the part of a non-technical stakeholder that you are presenting your findings to. The presentation should not exceed 5 minutes, giving the "stakeholder" 5 minutes to ask questions.
+* Your notebook should clearly show how you arrived at your results for each hypothesis test, including how you calculated your p-values.   
+<br>
+* You should also include any other statistics that you find relevant to your analysis, such as effect size. 
 
-In the first half of the presentation (2-3 mins), you should summarize your methodology in a way that will be comprehensible to someone with no background in data science and that will increase their confidence in you and your findings. In the second half (the remaining 2-3 mins) you should summarize your findings and be ready to answer a couple of non-technical questions from the audience. The questions might relate to technical topics (sampling bias, confidence, etc) but will be asked in a non-technical way and need to be answered in a way that does not assume a background in statistics or machine learning. You can assume a smart, business stakeholder, with a non-quantitative college degree.
+### Blog Post Must-Haves
 
-#### 2. Go through the Jupyter Notebook, answering questions about how you made certain decisions. Be ready to explain things like:
-    * "how did you pick the question(s) that you did?"
-    * "why are these questions important from a business perspective?"
-    * "how did you decide on the data cleaning options you performed?"
-    * "why did you choose a given method or library?"
-    * "why did you select those visualizations and what did you learn from each of them?"
-    * "why did you pick those features as predictors?"
-    * "how would you interpret the results?"
-    * "how confident are you in the predictive quality of the results?"
-    * "what are some of the things that could cause the results to be wrong?"
+Your blog post should include everything from how you identified what tables contained the information you need, to how you retrieved it using SQL (and any challenges you ran into while doing so), as well as your methodology and results for your hypothesis tests. 
 
-Think of the second phase of the review (~30 mins) as a technical boss reviewing your work and asking questions about it before green-lighting you to present to the business team. You should practice using the appropriate technical vocabulary to explain yourself. Don't be surprised if the instructor jumps around or sometimes cuts you off - there is a lot of ground to cover, so that may happen.
+**_NOTE:_**  This blog post is your way of showcasing the work you've done on this project--chances are it will soon be read by a recruiter or hiring manager! Take the time to make sure that you craft your story well, and clearly explain your process and findings in a way that clearly shows both your technical expertise **_and_** your ability to communicate your results!
 
-If any requirements are missing or if significant gaps in understanding are uncovered, be prepared to do one or all of the following:
-* Perform additional data cleanup, visualization, feature selection, modeling and/or model validation
-* Submit an improved version
-* Meet again for another Project Review
+### Executive Summary Must-Haves
 
-What won't happen:
-* You won't be yelled at, belittled, or scolded
-* You won't be put on the spot without support
-* There's nothing you can do to instantly fail or blow it
+Your presentation should:
 
-**Please note: We need to receive the URL of your repository at least 24 hours before your review so we can look at your materials in advance.** 
-
-
-## Requirements
-
-This section outlines the rubric we'll use to evaluate your project.
-
-### 1. Technical Report Must-Haves
-
-
-
-### 2. Non-Technical Presentation Must-Haves
-
-
-
-### 3. Blog Post
-
-Please also write a blog post about one element of the project - it could be the EDA, the feature selection, the choice of visualizations or anything else technical relating to the project. It should be between 800-1500 words and should be targeted at your peers - aspiring data scientists.
-
-
-## Summary
-
-The end of module projects and project reviews are a critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with.
-
-The projects are serious and important. They are not graded, but they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
-
-We don't expect you to remember all of the terms or to get all of the answers right. If in doubt, be honest. If you don't know something, say so. If you can't remember it, just say so. It's very unusual for someone to complete a project review without being asked a question they're unsure of, we know you might be nervous which may affect your performance. Just be as honest, precise and focused as you can be, and you'll do great!
-
+* Contain between 5-10 professional quality slides detailing:
+<br>  
+    * A high-level overview of your methodology  
+    <br>  
+    * The results of your hypothesis tests  
+    <br>  
+    * Any real-world recommendations you would like to make based on your findings (ask yourself--why should the executive team care about what you found? How can your findings help the company?)  
+    <br>  
+* Take no more than 5 minutes to present  
+<br>  
+* Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.  
