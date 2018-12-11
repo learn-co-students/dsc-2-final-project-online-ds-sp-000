@@ -31,7 +31,7 @@ The goal of this project is to test your ability to gather information from a re
 
 The goal of your project is to query the database to get the data needed to perform a statistical analysis.  In this statistical analysis, you'll need to perform a hypothesis test (or perhaps several) to answer the following question:
 
-**_Does discount amount have a statistically significant effect on the quantity of a product in an order? If so, at what level(s) of discount?_**
+**_Do discounts have a statistically significant effect on the number of products customers order? If so, at what level(s) of discount?_**
 
 In addition to answering this question with a hypothesis test, you will also need to come up with **_at least 3 other hypotheses to test on your own_**.  These can by anything that you think could be imporant information for the company. 
 
