@@ -15,7 +15,7 @@ In this lesson, we'll review all the guidelines and specifications for the final
 
 Another module down--you're half way there!
 
-<img src='halfway-there.gif'>
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-2-final-project/master/halfway-there.gif'>
 
 For the culmination of Module 2, you just need to complete the final project!
 
@@ -23,7 +23,7 @@ For the culmination of Module 2, you just need to complete the final project!
 
 For this project, you'll be working with the Northwind database--a free, open-source dataset created by Microsoft containing data from a fictional company. You probably remember the Northwind database from our section on Advanced SQL. Here's the schema for the Northwind database:
 
-<img src='Northwind_ERD.png'>
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-2-final-project/master/Northwind_ERD.png'>
 
 The goal of this project is to test your ability to gather information from a real-world database and use your knowledge of statistical analysis and hypothesis testing to generate analytical insights that can be of value to the company. 
 
