@@ -1,0 +1,11 @@
+OrderId,UnitPrice,Quantity,Discount,CustomerId,Region,CategoryName,Employee
+10248,14.0,12,0.0,VINET,Western Europe,Dairy Products,Buchanan5
+10248,9.8,10,0.0,VINET,Western Europe,Grains/Cereals,Buchanan5
+10248,34.8,5,0.0,VINET,Western Europe,Dairy Products,Buchanan5
+10249,18.6,9,0.0,TOMSP,Western Europe,Produce,Suyama6
+10249,42.4,40,0.0,TOMSP,Western Europe,Produce,Suyama6
+10250,7.7,10,0.0,HANAR,South America,Seafood,Peacock4
+10250,42.4,35,0.15,HANAR,South America,Produce,Peacock4
+10250,16.8,15,0.15,HANAR,South America,Condiments,Peacock4
+10251,16.8,6,0.05,VICTE,Western Europe,Grains/Cereals,Leverling3
+10251,15.6,15,0.05,VICTE,Western Europe,Grains/Cereals,Leverling3
